@@ -23,16 +23,6 @@ public class Score {
         this.com = com;
     }
 
-    public Score(String name, int kor, int eng, int com, int total, double avg, String score) {
-        this.name = name;
-        this.kor = kor;
-        this.eng = eng;
-        this.com = com;
-        this.total = total;
-        this.avg = avg;
-        this.score = score;
-    }
-
     public String getName() {
         return name;
     }
